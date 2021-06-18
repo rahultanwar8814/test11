@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rowq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/curvebackground"
+        >
+
+
+
+
+
+        <TextView
+            android:id="@+id/statusnameq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.419"
+            app:layout_constraintStart_toEndOf="@+id/statusprofileq"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/statusprofileq"
+            android:layout_width="56dp"
+            android:layout_height="50dp"
+
+
+            android:src="@android:drawable/ic_popup_sync"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/xxxxxxxyq"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/statusprofileq"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/statusprofileq"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="50dp" />
+
+        <ImageView
+            android:id="@+id/icon_buttonq"
+            android:layout_width="0dp"
+            android:layout_height="450dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/xxxxxxxyq"
+            app:srcCompat="@android:drawable/ic_menu_report_image"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/likeq"
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/icon_buttonq"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.01"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/icon_buttonq"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/textViewq"
+            android:layout_width="44dp"
+            android:layout_height="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.011"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/likeq"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/Commentq"
+            android:layout_width="44dp"
+            android:layout_height="38dp"
+            android:layout_below="@+id/icon_buttonq"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.059"
+            app:layout_constraintStart_toEndOf="@+id/likeq"
+            app:layout_constraintTop_toBottomOf="@+id/icon_buttonq"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_message"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/countcmtq"
+            android:layout_width="43dp"
+            android:layout_height="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Commentq"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
