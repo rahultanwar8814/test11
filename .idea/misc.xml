@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/drawable/edit_background.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/drawable/fav_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/drawable/faved_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_account.xml" value="0.1" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_chat_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_chatidsaver.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_chating.xml" value="0.1" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_comment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_homefirst.xml" value="0.17314814814814813" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_imageclikck.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_info.xml" value="0.1" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_login.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_page1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_succeslogin.xml" value="0.1" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/activity_view_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/card.xml" value="0.264" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/card2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/chatingcard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/commentcard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/firstcard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/roughstory.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/viewgalarycard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/RAHUL TANWAR/AndroidStudioProjects/test11/app/src/main/res/layout/viewgalarycard2.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
